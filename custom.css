@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+}
+
+img {
+    margin-top: 3rem;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3rem;
+    line-height: 1.7rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+ul li a {
+    color: #000000;
+}
+
+#cluster {
+    width: 550px;
+    height: 455.51px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6.8rem;
+    font-size: 3.1rem;
+    font-weight: 700;
+    color: #1A1A1A;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    margin-top: 16rem;
+    font-size: 3.6rem;
+    line-height: 59px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1.6rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #595959;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    box-sizing: border-box;
+    color: #0074FF;
+    border: 1px solid #000000;
+}
+
+.text {
+    font-family: 'Montserrat';
+    padding: .5rem;
+    text-justify: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.local {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.line {
+    margin-top: 70px;
+    width: 270px;
+    height: 0px;
+    left: 500px;
+    top: 100px;
+    border: 3px solid #000000;
+}
+
+.vector {
+    width: 170px;
+    border: 1px solid #000000;
+}
+
+.selector {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    width: 280px;
+    height: 448px;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #0074FF;
+}
+
+.number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 176px;
+    color: rgba(26, 26, 26, 0.1);
+}
+
+.map {
+    position: relative;
+    text-align: right;
+    height: 370px;
+    width: 555px;
+    box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.2);
+}
+
+.gps_map {
+    background: none !important;
+    overflow: hidden;
+    height: 370px;
+    width: 555px;
+    box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    font-family: 'Montserrat';
+    height: 100px;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    color: #FFFFFF;
+    background: #1A1A1A;
+}
